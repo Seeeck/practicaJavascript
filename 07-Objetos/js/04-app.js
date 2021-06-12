@@ -9,4 +9,5 @@ const producto = {
 console.log(nombre); */
 
 /* DESTRUCTURING */
-const {nombre} = producto;
+const {nombre,precio,disponible} = producto;
+console.log(disponible);
